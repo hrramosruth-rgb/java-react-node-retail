@@ -5,3 +5,4 @@ Code created in October 2026. Dates below are illustrative, assigned to meaningf
 | Simulated date | Actual change |
 | --- | --- |
 | 2023-09-14 | chore: scaffold disclosed Spring inventory demo |
+| 2023-11-16 | feat: persist inventory and transactional reservations |
