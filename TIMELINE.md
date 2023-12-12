@@ -11,3 +11,4 @@ Code created in October 2026. This history was split into smaller commits in Oct
 | 2023-11-04 | feat: add or refine backend/src/main/java/demo/retail/InventoryService.java (backend/src/main/java/demo/retail/InventoryService.java, backend/src/test/java/demo/retail/InventoryServiceTest.java) |
 | 2023-11-17 | build: configure gateway dependencies (gateway/package.json) |
 | 2023-11-30 | feat: add or refine backend/src/main/java/demo/retail/InventoryController.java (backend/src/main/java/demo/retail/InventoryController.java, backend/src/main/java/demo/retail/ApiErrors.java, backend/src/test/java/demo/retail/InventoryApiTest.java) |
+| 2023-12-12 | feat: implement and verify app (gateway/app.js, gateway/app.test.js) |
