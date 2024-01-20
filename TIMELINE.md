@@ -14,3 +14,4 @@ Code created in October 2026. This history was split into smaller commits in Oct
 | 2023-12-12 | feat: implement and verify app (gateway/app.js, gateway/app.test.js) |
 | 2023-12-25 | feat: add or refine gateway/server.js (gateway/server.js) |
 | 2024-01-07 | build: configure frontend dependencies (frontend/package.json) |
+| 2024-01-20 | feat: add or refine frontend/index.html (frontend/index.html, frontend/src/main.jsx, frontend/vite.config.js) |
