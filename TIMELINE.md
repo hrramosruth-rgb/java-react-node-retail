@@ -18,3 +18,4 @@ Code created in October 2026. This history was split into smaller commits in Oct
 | 2024-02-02 | feat: implement and verify App (frontend/src/App.jsx, frontend/src/App.test.jsx) |
 | 2024-02-15 | style: add responsive style presentation (frontend/src/style.css) |
 | 2024-02-27 | feat: add or refine backend/src/main/resources/application.properties (backend/src/main/resources/application.properties) |
+| 2024-03-11 | feat: add or refine backend/src/main/resources/schema.sql (backend/src/main/resources/schema.sql) |
