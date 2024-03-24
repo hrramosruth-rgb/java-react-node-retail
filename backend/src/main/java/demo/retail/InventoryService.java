@@ -20,8 +20,9 @@ public class InventoryService {
             throw new IllegalArgumentException("Provide a valid SKU and quantity from 1 to 100.");
         var matches = jdbc.queryForList("SELECT available FROM products WHERE sku=?", Integer.class, sku);
         if (matches.isEmpty()) throw new NoSuchElementException("Product not found.");
-        if (matches.getFirst() < quantity) throw new IllegalStateException("Insufficient stock.");
-        jdbc.update("UPDATE products SET available=available-? WHERE sku=?", quantity, sku);
+        // One conditional database mutation serializes competing reservations.
+        int changed = jdbc.update("UPDATE products SET available=available-? WHERE sku=? AND available>=?", quantity, sku, quantity);
+        if (changed == 0) throw new IllegalStateException("Insufficient stock.");
         var reservation = new Reservation(UUID.randomUUID().toString(), sku, quantity);
         jdbc.update("INSERT INTO reservations(id,sku,quantity) VALUES(?,?,?)", reservation.id(), sku, quantity);
         return reservation;
