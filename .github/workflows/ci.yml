@@ -1,0 +1,23 @@
+name: Verify retail demo
+on: [push, pull_request]
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '21'
+          cache: maven
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: |
+            gateway/package-lock.json
+            frontend/package-lock.json
+      - run: mvn -B -f backend/pom.xml verify
+      - run: npm ci --prefix gateway && npm test --prefix gateway
+      - run: npm ci --prefix frontend && npm test --prefix frontend && npm run build --prefix frontend
+      - run: node scripts/reservation-smoke.mjs
