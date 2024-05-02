@@ -22,3 +22,4 @@ Code created in October 2026. This history was split into smaller commits in Oct
 | 2024-03-24 | feat: add or refine backend/src/main/java/demo/retail/InventoryService.java (backend/src/main/java/demo/retail/InventoryService.java) |
 | 2024-04-06 | test: cover App.test (frontend/src/App.test.jsx) |
 | 2024-04-19 | ci: verify demo on GitHub Actions (.github/workflows/ci.yml) |
+| 2024-05-02 | test: cover InventoryConcurrencyTest (backend/src/test/java/demo/retail/InventoryConcurrencyTest.java) |
