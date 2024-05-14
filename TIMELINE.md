@@ -23,3 +23,4 @@ Code created in October 2026. This history was split into smaller commits in Oct
 | 2024-04-06 | test: cover App.test (frontend/src/App.test.jsx) |
 | 2024-04-19 | ci: verify demo on GitHub Actions (.github/workflows/ci.yml) |
 | 2024-05-02 | test: cover InventoryConcurrencyTest (backend/src/test/java/demo/retail/InventoryConcurrencyTest.java) |
+| 2024-05-14 | test: cover InventoryPersistenceTest (backend/src/test/java/demo/retail/InventoryPersistenceTest.java) |
