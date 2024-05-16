@@ -8,3 +8,4 @@ Code created in October 2026. Dates below are illustrative, assigned to meaningf
 | 2023-11-16 | feat: persist inventory and transactional reservations |
 | 2024-01-18 | feat: expose inventory API and aggregate catalog gateway |
 | 2024-03-14 | feat: add accessible React reservation storefront |
+| 2024-05-16 | fix: prevent concurrent overselling and verify service flow |
