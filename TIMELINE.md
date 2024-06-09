@@ -25,3 +25,4 @@ Code created in October 2026. This history was split into smaller commits in Oct
 | 2024-05-02 | test: cover InventoryConcurrencyTest (backend/src/test/java/demo/retail/InventoryConcurrencyTest.java) |
 | 2024-05-14 | test: cover InventoryPersistenceTest (backend/src/test/java/demo/retail/InventoryPersistenceTest.java) |
 | 2024-05-27 | test: add reservation-smoke verification (scripts/reservation-smoke.mjs) |
+| 2024-06-09 | docs: document setup and simulation limits (README.md, .superpowers/progress.md) |
