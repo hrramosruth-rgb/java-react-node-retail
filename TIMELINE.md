@@ -28,3 +28,4 @@ Code created in October 2026. This history was split into smaller commits in Oct
 | 2024-06-09 | docs: document setup and simulation limits (README.md, .superpowers/progress.md) |
 | 2024-06-22 | docs: add VERIFICATION.md (docs/VERIFICATION.md) |
 | 2024-07-05 | build: configure frontend dependencies (frontend/package-lock.json) |
+| 2024-07-18 | build: configure gateway dependencies (gateway/package-lock.json) |
